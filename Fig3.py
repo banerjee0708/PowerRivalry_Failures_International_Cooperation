@@ -6,7 +6,7 @@ from matplotlib import rcParams
 from matplotlib.ticker import MaxNLocator
 
 
-# all functions are in the file functions
+# all functions are in the file functionsFig3
 
 
 def main():
@@ -17,17 +17,18 @@ def main():
         wealth)
     # this extraction gets us the arrays of how wealth increases, and the corresponding values of total public good with
     # soft power: rw_sum_public_good_endog
-    # the levels of individual contributions at soft power:
+    # the levels of individual contributions at soft power: rw_good_nash_endo_1/2
+    # similarly, welfare  at soft power equilibrium is rw_welfare_endog_nash_1/2 and sum
     (average_wealth, rw_sum_public_good_endog, rw_good_nash_endo_1, rw_good_nash_endo_2, rw_welfare_endog_nash_1,
      rw_welfare_endog_nash_2, rw_welfare_endog_sum) = rw_endogeneous_game_values
-
+    #and the corresponding values under rival power:
     (rw_good_contribution, rw_good_nash_1, rw_good_nash_2, rw_welfare_1_nash, rw_welfare_2_nash,
      rw_sum_welfare_nash) = rw_game_values
 
     # we extract the levels of function (r1) at the endogenous game solution for every level of wealth
     (r1_1, r1_2) = r_values
 
-    # we check if r1 is positive
+    # we check if r1 is positive or negative
 
     check_r_arrays(r1_1,r1_2)
 

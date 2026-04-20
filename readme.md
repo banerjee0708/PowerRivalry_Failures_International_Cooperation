@@ -31,7 +31,11 @@ Insert the wealth levels you want to test for in the first line of the main func
 we use two levels of wealth: [5000,500] and [4000,3500]
 
 Insert the parameters a, c, alpha and beta in the first line of the function "function_looper_endog" in 
-[functions.py](functionsFig3.py). 
+[functionsFig3.py](functionsFig3.py). 
+
+```shell
+python Fig3.py
+```
 
 ### [Figure 4-7, Figure 10-13](./Fig4-7Fig10-13.py)
 

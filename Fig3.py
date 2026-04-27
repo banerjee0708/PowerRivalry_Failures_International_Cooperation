@@ -1,5 +1,6 @@
 # this Python file recreates Figure 3 of the paper.
 import numpy as np
+import pylab
 import matplotlib.pyplot as plt
 from functionsFig3 import function_looper_endog,check_r_arrays
 from matplotlib import rcParams
@@ -35,6 +36,9 @@ def main():
     rcParams.update({'figure.autolayout': True})
     # Comparing the two models Public Good + Welfare - Relative wealth
     fig1, axs1 = plt.subplots(3, 2)
+    fig = pylab.gcf()
+    fig.canvas.manager.set_window_title('Figure 3: Comparisons of total and individual provision under soft power (left) '
+                                        'and under only rival power (right)')
     fig1.suptitle('Nash public good - Relative Wealth with initial wealths: [4000, 3500]', fontsize=12)
 
     axs1[0, 0].plot(average_wealth, rw_sum_public_good_endog, label='Soft Power', color='black', marker='o')

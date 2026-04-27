@@ -1,4 +1,5 @@
 import math
+import pylab
 import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib import rcParams
@@ -74,12 +75,12 @@ def nash_calculator_cobb_douglas_heterogeneous(w_values, beta, a, c_values, alph
 
 def main():
     # Parameters
-    wealth = np.array([5000, 4500])
+    wealth = np.array([5000, 500])
     beta = 0.4
     alpha = 0.4
     n = 2
     a = 5
-    costs = np.array([3,5])
+    costs = np.array([7,5])
 
     # adding bounds for the maximization problem
     bounds = (0, None)
@@ -124,7 +125,7 @@ def main():
         # Create a new distribution by adding delta to each income
         # new_distribution = wealth + delta
         new_distribution = wealth
-        new_costs = [costs[0] - delta, costs[1] + delta]
+        new_costs = [costs[0] + delta, costs[1] - delta]
         avg_cost = np.mean(new_costs)
         w_1 = new_distribution[0]
         w_2 = new_distribution[1]
@@ -199,6 +200,8 @@ def main():
     # Example 1
     # Plot the first subplot
     fig1, axs1 = plt.subplots(2,2)
+    fig = pylab.gcf()
+    fig.canvas.manager.set_window_title('Figure 4: Comparisons of Public Good Provision and Welfare')
     fig1.suptitle('Initial wealths: [5000, 4500]')
 
     axs1[0,0].plot(iteration, rw_good_contribution, label='Homogeneity', color='blue', marker='o')
@@ -230,6 +233,8 @@ def main():
     # axs1[1,1].legend(loc="lower right")
 
     fig2, axs2 = plt.subplots(2,2)
+    fig = pylab.gcf()
+    fig.canvas.manager.set_window_title('Figure 6: Comparisons of Individual Provision and Welfare')
     fig2.suptitle('Initial wealths: [5000, 4500]')
 
     axs2[0,0].plot(iteration, rw_good_nash_1, label='Homogeneity', color='blue', marker='o')

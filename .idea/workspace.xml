@@ -4,20 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7eace6b2-230e-43f9-a014-a68b5eb828a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/PowerRivalry_Failures_International_Cooperation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fig1Fig9.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fig2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fig3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fig4-7Fig10-13.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fig8.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functionsFig3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+    <list default="true" id="7eace6b2-230e-43f9-a014-a68b5eb828a6" name="Changes" comment=" Commit">
+      <change afterPath="$PROJECT_DIR$/Fig10Fig11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fig4Fig6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fig5Fig7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fig9.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fig1Fig9.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fig1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fig2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fig2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fig3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fig3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fig4-7Fig10-13.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fig12Fig13.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fig8.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fig8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +32,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;banerjee0708&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/banerjee0708/-PowerRivalry_Failures_International_Cooperation&quot;,
+    &quot;accountId&quot;: &quot;58bd1772-ff32-4efd-ab5a-d841d8a4d0d6&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -45,9 +55,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Fig1.executor": "Run",
+    "Python.Fig10Fig11.executor": "Run",
     "Python.Fig1Fig9.executor": "Run",
     "Python.Fig2.executor": "Run",
+    "Python.Fig3.executor": "Run",
+    "Python.Fig4-5.executor": "Run",
     "Python.Fig4-7Fig10-13.executor": "Run",
+    "Python.Fig4Fig6.executor": "Run",
+    "Python.Fig5Fig7.executor": "Run",
+    "Python.Fig8.executor": "Run",
+    "Python.Fig9.executor": "Run",
     "Python.Figure_3.executor": "Run",
     "Python.Figure_8.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -71,6 +89,44 @@
       <option name="presentableId" value="Default" />
       <updated>1776355966252</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <option name="closed" value="true" />
+      <created>1776417334632</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1776417334632</updated>
+    </task>
+    <task id="LOCAL-00002" summary=" Commit">
+      <option name="closed" value="true" />
+      <created>1776441187473</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1776441187473</updated>
+    </task>
+    <task id="LOCAL-00003" summary=" Commit">
+      <option name="closed" value="true" />
+      <created>1776441896345</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1776441896345</updated>
+    </task>
+    <task id="LOCAL-00004" summary=" Commit">
+      <option name="closed" value="true" />
+      <created>1776691527468</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1776691527468</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <MESSAGE value=" Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Commit" />
   </component>
 </project>

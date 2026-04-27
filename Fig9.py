@@ -1,4 +1,5 @@
 import math
+import pylab
 import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib import rcParams
@@ -55,18 +56,10 @@ def main():
     # increments
     initial_delta = 5  # Initial value of delta
     delta_increment = 5  # Fixed increment for delta
-    num_deltas = 200 # Number of different delta values
+    num_deltas = 10000 # Number of different delta values
     # the lists
     average_wealth = []
-    average_cost = []
-    # welfare denoted by total amounts for nash
-    aw_good_contribution = []
-    aw_welfare_1_nash = []
-    aw_welfare_2_nash = []
-    aw_sum_welfare_nash = []
-    # welfare denoted by total amounts for soc planner
-    aw_soc_optimum = []
-    aw_sum_welfare_soc = []
+    average_wealth_2 =[]
     # welfare denoted by relative amounts for nash
     rw_good_contribution = []
     rw_good_nash_1 = []
@@ -74,12 +67,12 @@ def main():
     rw_welfare_1_nash = []
     rw_welfare_2_nash = []
     rw_sum_welfare_nash = []
+
     # welfare denoted by relative amounts for soc planner
     rw_soc_optimum = []
     rw_sum_welfare_soc = []
 
     # diff b/w nash and social optimum
-    diff_soc_nash_aw = []
     diff_soc_nash_rw = []
     diff_abs_soc_nash = []
 
@@ -90,59 +83,54 @@ def main():
         # Create a new distribution by adding delta to each income
         new_distribution = wealth + delta
 
+
         w_1 = new_distribution[0]
         w_2 = new_distribution[1]
 
         sum_wealth = w_1 + w_2
+
         w_relative = [v / sum_wealth for v in new_distribution]
+
         # Calculate the average income and append it to the list
         average = np.mean(new_distribution)
         # social planners optimization
-        solution_absolute = minimize(welfare_social_optimum_q(wealth[0], wealth[1], a, c, beta, alpha), (0, 0),
-                                     method="trust-constr", bounds=bounds_q)
         solution_relative = minimize(welfare_social_optimum_q(w_relative[0], w_relative[1], a, c, beta, alpha), (0, 0),
                                      method="trust-constr", bounds=bounds_q)
-        aw_social_optimum = solution_absolute.x
+        solution_relative_2 = minimize(welfare_social_optimum_q(w_relative[0], w_relative[1], a, c, beta, alpha), (0, 0),
+                                     method="trust-constr", bounds=bounds_q)
         rw_social_optimum = solution_relative.x
-        f_max_absolute = -solution_absolute.fun
+
         f_max_relative = -solution_relative.fun
+
         # Calculate the amount of the public good of the distribution
-        (aw_public_good_nash_homo, aw_individual_contribution_nash_homo, aw_profit_nash_homo,
-         aw_ind_profit_nash_homo) = nash_calculator_cobb_douglas_homogeneous(new_distribution, beta, a, c, alpha, n)
         (rw_public_good_nash_homo, rw_individual_contribution_nash_homo, rw_profit_nash_homo,
          rw_ind_profit_nash_homo) = nash_calculator_cobb_douglas_homogeneous(w_relative, beta, a, c, alpha, n)
 
-        aw_soc_opt = sum(aw_social_optimum)
         rw_soc_opt = sum(rw_social_optimum)
 
         # diff soc nash
         diff_soc_nash = (f_max_relative - rw_profit_nash_homo) / rw_profit_nash_homo
         diff_absolute = f_max_relative - rw_profit_nash_homo
-        aw_soc_optimum.append(aw_soc_opt)
+
         rw_soc_optimum.append(rw_soc_opt)
         # Add the list of values to the plot
         average_wealth.append(average)
+
         rw_sum_welfare_soc.append(f_max_relative)
 
-        # absolute wealth - nash
-        aw_good_contribution.append(aw_public_good_nash_homo)
-        aw_welfare_1_nash.append(aw_ind_profit_nash_homo[0])
-        aw_welfare_2_nash.append(aw_ind_profit_nash_homo[1])
-        aw_sum_welfare_nash.append(aw_profit_nash_homo)
         # relative wealth
         rw_good_contribution.append(rw_public_good_nash_homo)
         rw_welfare_1_nash.append(rw_ind_profit_nash_homo[0])
         rw_welfare_2_nash.append(rw_ind_profit_nash_homo[1])
         rw_good_nash_1.append(rw_individual_contribution_nash_homo[0])
         rw_good_nash_2.append(rw_individual_contribution_nash_homo[1])
+
         # small edit
         rw_sum_soc = sum(rw_ind_profit_nash_homo)
         rw_sum_welfare_nash.append(rw_sum_soc)
 
         # welfare
 
-        # rw_sum_welfare_nash.append(rw_profit_nash_homo)
-        # (soc - nash)/nash
         diff_soc_nash_rw.append(diff_soc_nash)
         diff_abs_soc_nash.append(diff_absolute)
 
@@ -153,25 +141,9 @@ def main():
 
     # Example 1
     # Plot the first subplot
-    fig1, axs1 = plt.subplots(3)
-    fig1.suptitle('Nash public good levels with initial wealths: [5000, 500]')
-
-    axs1[0].plot(average_wealth, rw_good_contribution, label='Relative Wealth', color='black', marker='o')
-    axs1[0].set_title('Total Public Good')
-    axs1[0].set_xlabel('Average total group wealth')
-    axs1[0].set_ylabel('$Q^*$')
-
-    axs1[1].plot(average_wealth, rw_good_nash_1, label='Relative Wealth', color='red', marker='o')
-    axs1[1].set_title('Contribution of Country 1')
-    axs1[1].set_xlabel('Average total group wealth')
-    axs1[1].set_ylabel('$q_1^*$')
-
-    axs1[2].plot(average_wealth, rw_good_nash_2, label='Relative Wealth', color='blue', marker='o')
-    axs1[2].set_title('Contribution of Country 2')
-    axs1[2].set_xlabel('Average total group wealth')
-    axs1[2].set_ylabel('$q_2^*$')
-
     fig2, axs2 = plt.subplots(2)
+    fig = pylab.gcf()
+    fig.canvas.manager.set_window_title('Figure 9: Welfare levels under preferences for power: 10000 iterations')
     fig2.suptitle('Soc planner vs. Nash:  initial wealths: [5000, 500]')
 
     axs2[0].plot(average_wealth, rw_sum_welfare_soc, label='Welfare: Social Planner', color='blue', marker='o')

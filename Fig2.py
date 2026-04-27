@@ -1,4 +1,5 @@
 import math
+import pylab
 import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib import rcParams
@@ -155,6 +156,8 @@ def main():
     # Example 1
     # Plot the first subplot
     fig1, axs1 = plt.subplots(3)
+    fig = pylab.gcf()
+    fig.canvas.manager.set_window_title('Figure 2: Public good provision under reducing absolute inequality in wealth')
     fig1.suptitle('Nash public good levels with initial wealths: [5000, 500]')
 
     axs1[0].plot(iteration, rw_good_contribution, label='Relative Wealth', color='black', marker='o')

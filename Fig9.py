@@ -161,10 +161,8 @@ def main():
     # Adjust layout
     plt.tight_layout()
 
-    # Add title
-    # plt.title('Increasing wealth of all countries, alpha = 0.4, beta = 0.4')
-
     # Show the plot
+    plt.savefig('Figure 9: Welfare levels under preferences for power: 10000 iterations.png')
     plt.show()
 
 

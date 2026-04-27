@@ -2,7 +2,7 @@
 import numpy as np
 import pylab
 import matplotlib.pyplot as plt
-from functionsFig3 import function_looper_endog,check_r_arrays
+from functionsFig3a import function_looper_endog,check_r_arrays
 from matplotlib import rcParams
 from matplotlib.ticker import MaxNLocator
 
@@ -78,6 +78,7 @@ def main():
     plt.tight_layout()
 
     # Show the plot
+    plt.savefig('Figure 3 Panel (Left): Comparisons of total and individual provision under soft power (left) and under only rival power (right).png')
     plt.show()
 
 

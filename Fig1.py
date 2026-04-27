@@ -148,11 +148,11 @@ def main():
     # Adjust layout
     plt.tight_layout()
 
-    # Add title
-    # plt.title('Increasing wealth of all countries, alpha = 0.4, beta = 0.4')
 
-    # Show the plot
+    # Save and show the plot
+    plt.savefig('Figure 1: Decreasing public good provision with non-contributors.png')
     plt.show()
+
 
 
 if __name__ == '__main__':

@@ -19,18 +19,16 @@ Wealth and parameters a, c, alpha, beta are changed in the first lines of the ma
 
 Wealth and parameters a, c, alpha, beta are changed in the first lines of the main function.
 
-### [Figure 3](Fig3.py)
+### [Figure 3](Fig3a.py)
 Insert the wealth levels you want to test for in the first line of the main function: for the example in the paper, 
 we use two levels of wealth: [5000,500] and [4000,3500]
 
 Insert the parameters a, c, alpha and beta in the first line of the function "function_looper_endog" in 
-[functionsFig3.py](functionsFig3.py). 
+[functionsFig3.py](functionsFig3a.py). 
 
-```shell
-python Fig3.py
-```
+### [Figure 4,6](.\Fig4Fig6.py)
 
-### [Figure 4-7, Figure 10-13](Fig4Fig6.py)
+### [Figure 10-13](Fig4Fig6.py)
 
 Wealth and parameters a, alpha, beta and the marginal returns from the public good for the two countries c1 and c2 
 (c1 for country 1.) 

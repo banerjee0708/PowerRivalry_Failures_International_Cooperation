@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7eace6b2-230e-43f9-a014-a68b5eb828a6" name="Changes" comment=" Commit">
-      <change afterPath="$PROJECT_DIR$/Fig10Fig11.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fig4Fig6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fig5Fig7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fig9.py" afterDir="false" />
+    <list default="true" id="7eace6b2-230e-43f9-a014-a68b5eb828a6" name="Changes" comment=" Commit - Ulrike First Edits">
+      <change afterPath="$PROJECT_DIR$/Fig3b.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functionsFig3b.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fig1Fig9.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fig1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fig1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fig1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fig2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fig2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fig3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fig3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fig4-7Fig10-13.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fig12Fig13.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fig8.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fig8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fig3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fig3a.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fig4Fig6.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fig4Fig6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functionsFig3.py" beforeDir="false" afterPath="$PROJECT_DIR$/functionsFig3a.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,9 +55,12 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.Fig1.executor": "Run",
     "Python.Fig10Fig11.executor": "Run",
+    "Python.Fig12Fig13.executor": "Run",
     "Python.Fig1Fig9.executor": "Run",
     "Python.Fig2.executor": "Run",
     "Python.Fig3.executor": "Run",
+    "Python.Fig3a.executor": "Run",
+    "Python.Fig3b.executor": "Run",
     "Python.Fig4-5.executor": "Run",
     "Python.Fig4-7Fig10-13.executor": "Run",
     "Python.Fig4Fig6.executor": "Run",
@@ -71,7 +72,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "pullreview"
+    "git-widget-placeholder": "pullreview",
+    "settings.editor.selected.configurable": "build.tools"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -121,12 +123,21 @@
       <option name="project" value="LOCAL" />
       <updated>1776691527468</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary=" Commit - Ulrike First Edits">
+      <option name="closed" value="true" />
+      <created>1777282930505</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1777282930505</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value=" Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Commit" />
+    <MESSAGE value=" Commit - Ulrike First Edits" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Commit - Ulrike First Edits" />
   </component>
 </project>

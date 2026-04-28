@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7eace6b2-230e-43f9-a014-a68b5eb828a6" name="Changes" comment=" Commit - Ulrike Markdown Edits" />
+    <list default="true" id="7eace6b2-230e-43f9-a014-a68b5eb828a6" name="Changes" comment=" Commit - Ulrike Markdown Edits">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fig3a.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fig3a.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,32 +43,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.Fig1.executor": "Run",
-    "Python.Fig10Fig11.executor": "Run",
-    "Python.Fig12Fig13.executor": "Run",
-    "Python.Fig1Fig9.executor": "Run",
-    "Python.Fig2.executor": "Run",
-    "Python.Fig3.executor": "Run",
-    "Python.Fig3a.executor": "Run",
-    "Python.Fig3b.executor": "Run",
-    "Python.Fig4-5.executor": "Run",
-    "Python.Fig4-7Fig10-13.executor": "Run",
-    "Python.Fig4Fig6.executor": "Run",
-    "Python.Fig5Fig7.executor": "Run",
-    "Python.Fig8.executor": "Run",
-    "Python.Fig9.executor": "Run",
-    "Python.Figure_3.executor": "Run",
-    "Python.Figure_8.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "pullreview",
-    "settings.editor.selected.configurable": "build.tools"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.Fig1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Fig10Fig11.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Fig12Fig13.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Fig1Fig9.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Fig2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Fig3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Fig3a.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Fig3b.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Fig4-5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Fig4-7Fig10-13.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Fig4Fig6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Fig5Fig7.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Fig8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Fig9.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Figure_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Figure_8.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;pullreview&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -137,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777371009066</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary=" Commit - Ulrike Markdown Edits">
+      <option name="closed" value="true" />
+      <created>1777372378832</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1777372378832</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

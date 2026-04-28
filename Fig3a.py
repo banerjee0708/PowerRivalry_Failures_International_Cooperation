@@ -39,7 +39,7 @@ def main():
     fig = pylab.gcf()
     fig.canvas.manager.set_window_title('Figure 3: Comparisons of total and individual provision under soft power (left) '
                                         'and under only rival power (right)')
-    fig1.suptitle('Nash public good - Relative Wealth with initial wealths: [4000, 3500]', fontsize=12)
+    fig1.suptitle('Nash public good - Relative Wealth with initial wealths: [5000, 500]', fontsize=12)
 
     axs1[0, 0].plot(average_wealth, rw_sum_public_good_endog, label='Soft Power', color='black', marker='o')
     axs1[0, 0].set_title('Total Public Good - Soft Power')

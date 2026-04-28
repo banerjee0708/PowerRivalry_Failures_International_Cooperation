@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7eace6b2-230e-43f9-a014-a68b5eb828a6" name="Changes" comment=" Commit - Ulrike First Edits">
-      <change afterPath="$PROJECT_DIR$/Fig3b.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functionsFig3b.py" afterDir="false" />
+    <list default="true" id="7eace6b2-230e-43f9-a014-a68b5eb828a6" name="Changes" comment=" Commit - Ulrike Second Edits">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fig1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fig1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fig2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fig2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fig3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fig3a.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fig4Fig6.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fig4Fig6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functionsFig3.py" beforeDir="false" afterPath="$PROJECT_DIR$/functionsFig3a.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,13 +124,22 @@
       <option name="project" value="LOCAL" />
       <updated>1777282930505</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary=" Commit - Ulrike Second Edits">
+      <option name="closed" value="true" />
+      <created>1777305856962</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1777305856962</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value=" Commit" />
     <MESSAGE value=" Commit - Ulrike First Edits" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Commit - Ulrike First Edits" />
+    <MESSAGE value=" Commit - Ulrike Second Edits" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Commit - Ulrike Second Edits" />
   </component>
 </project>

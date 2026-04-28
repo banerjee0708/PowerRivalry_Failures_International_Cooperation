@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7eace6b2-230e-43f9-a014-a68b5eb828a6" name="Changes" comment=" Commit - Ulrike Second Edits">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-    </list>
+    <list default="true" id="7eace6b2-230e-43f9-a014-a68b5eb828a6" name="Changes" comment=" Commit - Ulrike Markdown Edits" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -132,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777305856962</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary=" Commit - Ulrike Markdown Edits">
+      <option name="closed" value="true" />
+      <created>1777371009066</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1777371009066</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -140,6 +145,7 @@
     <MESSAGE value=" Commit" />
     <MESSAGE value=" Commit - Ulrike First Edits" />
     <MESSAGE value=" Commit - Ulrike Second Edits" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Commit - Ulrike Second Edits" />
+    <MESSAGE value=" Commit - Ulrike Markdown Edits" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Commit - Ulrike Markdown Edits" />
   </component>
 </project>

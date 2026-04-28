@@ -267,8 +267,8 @@ def main():
     plt.tight_layout()
 
     # Show the plot
-    fig1.savefig('Figure 4: Comparisons of Public Good Provision and Welfare.png')
-    fig2.savefig('Figure 6: Comparisons of Individual Provision and Welfare.png')
+    fig1.savefig('Figure 4 - Comparisons of Public Good Provision and Welfare.png')
+    fig2.savefig('Figure 6 - Comparisons of Individual Provision and Welfare.png')
     plt.show()
 
 

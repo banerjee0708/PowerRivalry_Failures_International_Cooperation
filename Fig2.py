@@ -180,7 +180,7 @@ def main():
     plt.tight_layout()
 
     # Show the plot
-    plt.savefig('Figure 2: Public good provision under reducing absolute inequality in wealth.png')
+    plt.savefig('Figure 2 - Public good provision under reducing absolute inequality in wealth.png')
     plt.show()
 
 

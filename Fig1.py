@@ -150,7 +150,7 @@ def main():
 
 
     # Save and show the plot
-    plt.savefig('Figure 1: Decreasing public good provision with non-contributors.png')
+    plt.savefig('Figure 1 - Decreasing public good provision with non-contributors.png')
     plt.show()
 
 

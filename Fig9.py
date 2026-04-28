@@ -162,7 +162,7 @@ def main():
     plt.tight_layout()
 
     # Show the plot
-    plt.savefig('Figure 9: Welfare levels under preferences for power: 10000 iterations.png')
+    plt.savefig('Figure 9 - Welfare levels under preferences for power: 10000 iterations.png')
     plt.show()
 
 

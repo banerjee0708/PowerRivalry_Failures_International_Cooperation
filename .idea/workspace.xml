@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7eace6b2-230e-43f9-a014-a68b5eb828a6" name="Changes" comment=" Commit - Ulrike Markdown Edits" />
+    <list default="true" id="7eace6b2-230e-43f9-a014-a68b5eb828a6" name="Changes" comment=" Commit - Ulrike Markdown Edits">
+      <change beforePath="$PROJECT_DIR$/.idea/PowerRivalry_Failures_International_Cooperation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PowerRivalry_Failures_International_Cooperation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fig1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fig1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fig10Fig11.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fig10Fig11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fig12Fig13.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fig12Fig13.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fig2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fig2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fig3a.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fig3a.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fig3b.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fig3b.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fig4Fig6.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fig4Fig6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fig5Fig7.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fig5Fig7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fig8.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fig8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fig9.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fig9.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,14 +75,17 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "pullreview",
-    "settings.editor.selected.configurable": "build.tools"
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "build.tools",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-d9fa9deec7cb-d902c0275401-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-252.23892.515" />
+        <option value="bundled-python-sdk-b63d5a1f7c97-b61e75351b1f-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.22158.340" />
       </set>
     </attachedChunks>
   </component>
@@ -80,6 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1776355966252</updated>
+      <workItem from="1777374599964" duration="802000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -140,6 +157,9 @@
     <option name="localTasksCounter" value="8" />
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value=" Commit" />
@@ -147,5 +167,20 @@
     <MESSAGE value=" Commit - Ulrike Second Edits" />
     <MESSAGE value=" Commit - Ulrike Markdown Edits" />
     <option name="LAST_COMMIT_MESSAGE" value=" Commit - Ulrike Markdown Edits" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PowerRivalry_Failures_International_Cooperation$Fig5Fig7.coverage" NAME="Fig5Fig7 Coverage Results" MODIFIED="1777375170376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PowerRivalry_Failures_International_Cooperation$Fig8.coverage" NAME="Fig8 Coverage Results" MODIFIED="1777375215294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PowerRivalry_Failures_International_Cooperation$Fig12Fig13.coverage" NAME="Fig12Fig13 Coverage Results" MODIFIED="1777375363967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PowerRivalry_Failures_International_Cooperation$Fig2.coverage" NAME="Fig2 Coverage Results" MODIFIED="1777374844591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PowerRivalry_Failures_International_Cooperation$Fig1Fig9.coverage" NAME="Fig1Fig9 Coverage Results" MODIFIED="1776685269763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PowerRivalry_Failures_International_Cooperation$Fig9.coverage" NAME="Fig9 Coverage Results" MODIFIED="1777286578771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PowerRivalry_Failures_International_Cooperation$Fig10Fig11.coverage" NAME="Fig10Fig11 Coverage Results" MODIFIED="1777375314961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PowerRivalry_Failures_International_Cooperation$Fig4_7Fig10_13.coverage" NAME="Fig4-7Fig10-13 Coverage Results" MODIFIED="1776685432438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PowerRivalry_Failures_International_Cooperation$Fig1.coverage" NAME="Fig1 Coverage Results" MODIFIED="1777374772308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PowerRivalry_Failures_International_Cooperation$Fig3b.coverage" NAME="Fig3b Coverage Results" MODIFIED="1777375051755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PowerRivalry_Failures_International_Cooperation$Fig4Fig6.coverage" NAME="Fig4Fig6 Coverage Results" MODIFIED="1777375099421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PowerRivalry_Failures_International_Cooperation$Fig3.coverage" NAME="Fig3 Coverage Results" MODIFIED="1777286273737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PowerRivalry_Failures_International_Cooperation$Fig3a.coverage" NAME="Fig3a Coverage Results" MODIFIED="1777374901355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

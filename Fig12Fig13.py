@@ -270,6 +270,8 @@ def main():
     # plt.title('Increasing wealth of all countries, alpha = 0.4, beta = 0.4')
 
     # Show the plot
+    fig1.savefig('Figure 12: Comparisons of Public Good Provision and Welfare.png')
+    fig2.savefig('Figure 13: Comparisons of Individual Provision and Welfare.png')
     plt.show()
 
 

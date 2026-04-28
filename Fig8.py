@@ -179,10 +179,8 @@ def main():
     # Adjust layout
     plt.tight_layout()
 
-    # Add title
-    # plt.title('Increasing wealth of all countries, alpha = 0.4, beta = 0.4')
-
     # Show the plot
+    plt.savefig('Figure 8: Public good provision under reducing absolute inequality in wealth and income growth.png')
     plt.show()
 
 
